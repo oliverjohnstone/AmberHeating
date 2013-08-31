@@ -19,5 +19,8 @@
   "author": "Oliver Johnstone",
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "c364be3d93690feeb2aa59cf30ac522fbc16ce1c"
+  "gitHead": "c364be3d93690feeb2aa59cf30ac522fbc16ce1c",
+  "dependencies": {
+    "lodash": "~1.3.1"
+  }
 }
