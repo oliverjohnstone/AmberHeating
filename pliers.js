@@ -1,5 +1,7 @@
 var fs = require('fs')
   , properties = require('./properties')
+  , stylusRenderer = require('stylus-renderer')
+
 
 module.exports = function (pliers) {
 
@@ -12,7 +14,13 @@ module.exports = function (pliers) {
   pliers('buildCSS', function (done) {
     pliers.logger.info('Building CSS files')
 
-    done()
+    stylusRenderer(['index.styl'],
+      { stylusOptions: { compress: false, linenos: true }
+      , src: __dirname + '/site/styles'
+      , dest: __dirname + '/site/public/build'
+      }, function () {
+        done()
+      })
   })
 
   pliers('watch', function (done) {

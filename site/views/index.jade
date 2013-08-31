@@ -1,0 +1,16 @@
+html
+  head
+    include ./includes/head
+  body
+    .wrapper
+      include ./includes/header
+      .content
+        .content-block#WhoAreWe
+          include ./page-content/who-are-we
+        .content-block#WhatWeDo
+          include ./page-content/what-we-do
+        .content-block#Testimonials
+          include ./page-content/testimonials
+        .content-block#Contact
+          include ./page-content/contact
+      include ./includes/footer

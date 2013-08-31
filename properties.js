@@ -1,5 +1,5 @@
 var _ = require('lodash')
-  , port = 3306
+  , port = 3333
 
   , properties =
     { port: port
