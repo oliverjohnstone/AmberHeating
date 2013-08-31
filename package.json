@@ -1,0 +1,23 @@
+{
+  "name": "AmberHeating",
+  "version": "0.0.0",
+  "description": "Amber Heating Website Redesign",
+  "main": "server.js",
+  "scripts": {
+    "test": "pliers test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oliverjohnstone/AmberHeating.git"
+  },
+  "keywords": [
+    "AmberHeating",
+    "Website",
+    "New"
+  ],
+  "author": "Oliver Johnstone",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "c364be3d93690feeb2aa59cf30ac522fbc16ce1c"
+}
